@@ -1,6 +1,6 @@
 # MCP Fundamentals Lab
 
-Presentación y laboratorio local en español latino sobre fundamentos de MCP, pensada para uso interno y aprendizaje guiado.
+Presentación y laboratorio local sobre fundamentos de MCP, pensada para uso interno y aprendizaje guiado.
 
 ## Qué incluye
 

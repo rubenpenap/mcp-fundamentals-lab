@@ -321,7 +321,7 @@ server.registerResource(
       },
       {
         title: 'Diseño inteligente',
-        body: 'La elección no es estética. Es una decisión de costo, claridad y UX. Embebé cuando el siguiente paso lógico es consumir el dato YA. Linkeá cuando conviene navegar o diferir la carga.',
+        body: 'La elección no es estética. Es una decisión de costo, claridad y UX. Conviene incluir el recurso cuando el siguiente paso lógico es consumir el dato de inmediato. Conviene devolver un link cuando hace falta navegar o diferir la carga.',
         list: [
           'Crear algo → incluir el objeto creado.',
           'Listar muchas cosas → devolver links.',
@@ -654,7 +654,7 @@ function renderIntro() {
         <p class="card-label">Enfoque</p>
         <h3>Presentación + laboratorio</h3>
         <p>
-          Primero te doy el modelo mental. Después te dejo un camino de implementación para construir uno vos.
+          Primero se presenta el modelo mental. Después se muestra un camino de implementación para construir uno propio.
         </p>
       </article>
     </div>
