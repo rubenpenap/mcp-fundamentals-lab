@@ -23,6 +23,22 @@ Luego abrí:
 http://localhost:4173
 ```
 
+## Despliegue en GitHub Pages
+
+El repo incluye un workflow en:
+
+```txt
+.github/workflows/deploy-pages.yml
+```
+
+Hace deploy automático a GitHub Pages cuando hay push a `main`.
+
+Si es la primera vez que lo activas en el repositorio:
+
+1. Ve a **Settings → Pages**
+2. En **Build and deployment**, selecciona **GitHub Actions**
+3. Haz push a `main` o ejecuta el workflow manualmente
+
 ## Stack
 
 - HTML
