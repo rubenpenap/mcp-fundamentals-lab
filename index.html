@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCP Fundamentals Lab</title>
+    <meta
+      name="description"
+      content="Curso/presentación local en español sobre fundamentos de MCP para aprendizaje guiado."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand-card">
+          <span class="eyebrow">Curso local</span>
+          <h1>MCP Fundamentals</h1>
+          <p>
+            Presentación y laboratorio en español latino para entender MCP desde los fundamentos.
+          </p>
+        </div>
+
+        <nav>
+          <p class="nav-title">Recorrido</p>
+          <ul id="nav-list" class="nav-list"></ul>
+        </nav>
+
+        <div class="sidebar-note">
+          <p class="note-title">Idea central</p>
+          <p>
+            MCP no es “magia para LLMs”. Es un protocolo para exponer capacidades,
+            contexto e instrucciones de forma estandarizada.
+          </p>
+        </div>
+      </aside>
+
+      <main class="content">
+        <header class="hero">
+          <div>
+            <span class="eyebrow">Presentación técnica interna</span>
+            <h2>De cero a un modelo mental útil sobre MCP</h2>
+            <p class="hero-copy">
+              Este material organiza los fundamentos de MCP en una experiencia didáctica en
+              español latino. Está pensado como presentación, guía de estudio y laboratorio.
+            </p>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="#fundamentos">Empezar</a>
+            <a class="button secondary" href="#laboratorio-final">Ir al laboratorio final</a>
+          </div>
+        </header>
+
+        <section class="summary-grid">
+          <article class="summary-card">
+            <span class="metric">5</span>
+            <h3>Módulos troncales</h3>
+            <p>Ping, Tools, Resources, Resources in Tools y Prompts.</p>
+          </article>
+          <article class="summary-card">
+            <span class="metric">3</span>
+            <h3>Roles clave</h3>
+            <p>Host, cliente MCP y servidor MCP.</p>
+          </article>
+          <article class="summary-card">
+            <span class="metric">JSON-RPC</span>
+            <h3>Base del protocolo</h3>
+            <p>Requests, responses, ids, métodos y sesiones.</p>
+          </article>
+        </section>
+
+        <section id="fundamentos" class="section intro-section"></section>
+        <section id="playground" class="section playground-section"></section>
+        <section id="course-sections" class="section stacked-section"></section>
+        <section id="laboratorio-final" class="section final-lab"></section>
+        <section id="glosario" class="section glossary-section"></section>
+
+        <footer class="footer">
+          <p>
+            Presentación local en español sobre fundamentos de MCP, adaptada para uso didáctico interno.
+          </p>
+        </footer>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
